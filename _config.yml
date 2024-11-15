@@ -1,1 +1,36 @@
+# _config.yml
+
+title: Mohamed Essam - Data Analyst Portfolio
+description: "Showcasing data analysis projects, insights, and skills in Excel and beyond."
+theme: jekyll-theme-minimal  # Change to 'jekyll-theme-cayman', 'jekyll-theme-slate', 'jekyll-theme-hacker', or 'jekyll-theme-time-machine' as desired
+show_downloads: true
+
+# Optional: Social media links and other customizations
+author:
+  name: "Mohamed Essam"
+  email: mohamedessam872@gmail.com # Optional, for contact purposes
+  github: https://github.com/MohamedEssam872
+  linkedin: https://www.linkedin.com/in/mohamed-essam-830377215/  # Add your LinkedIn profile if desired
+
+# Optional: Navigation bar for portfolio sections
+collections:
+  projects:
+    output: true
+
+# Example: Links to specific projects
+nav:
+  - Home: /
+  - Projects: /projects/
+  - Contact: /contact/
+
+# Footer and additional customization (optional)
+footer:
+  text: "Data Analyst | Excel Expert | Insights Enthusiast"
+  social:
+    github: https://github.com/MohamedEssam872
+    linkedin: https://www.linkedin.com/in/your-linkedin-username/
+
+# Additional configurations (if necessary)
+markdown: kramdown
+highlighter: rouge
 
